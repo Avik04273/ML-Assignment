@@ -41,7 +41,7 @@ for comparing multiple ML algorithms.
   app demo.
 
 ## c. GitHub Repository Link
-`<PASTE YOUR GITHUB REPOSITORY LINK HERE>`
+https://github.com/Avik04273/ML-Assignment
 
 ## d. Models Used
 
@@ -68,25 +68,6 @@ for comparing multiple ML algorithms.
 | Random Forest (Ensemble)     | Second-best overall and most robust — highest Recall (0.9418), strong AUC (0.9446), and much less overfitting than the single Decision Tree thanks to bagging across 150 trees. Handles the mixed categorical/numeric feature space well. |
 | **Overall Winner for your dataset?** | **Logistic Regression** — highest AUC (0.9513) and MCC (0.7829), with Random Forest a very close second. Given the near-linear separability of this engineered feature set, the simpler linear model edges out the ensemble while also being far cheaper to train/serve. |
 
-## Repository Structure
-```
-project-folder/
-│-- app.py                      # Streamlit application
-│-- requirements.txt
-│-- README.md
-│-- test_data.csv               # held-out test set (3,000 rows) used for evaluation/demo
-│-- user_level_ai_adoption.csv  # full raw dataset
-│-- model/
-│   │-- train_models.py         # trains all 5 models, saves pipelines + metrics
-│   │-- logistic_regression.pkl
-│   │-- decision_tree.pkl
-│   │-- knn.pkl
-│   │-- naive_bayes.pkl
-│   │-- random_forest_ensemble.pkl
-│   │-- metrics.csv
-│   └-- median_gain.json
-```
-
 ## How to Run Locally
 ```bash
 pip install -r requirements.txt
@@ -102,4 +83,4 @@ streamlit run app.py
 - One-click comparison of all 5 models on the uploaded data
 
 ## Live App Link
-`<PASTE YOUR STREAMLIT COMMUNITY CLOUD LINK HERE>`
+https://aokxnzyrayped6p88rr3zq.streamlit.app/
