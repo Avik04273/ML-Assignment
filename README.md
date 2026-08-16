@@ -17,7 +17,7 @@ otherwise. This produces a balanced binary classification problem suitable
 for comparing multiple ML algorithms.
 
 ## b. Dataset Description
-- **Source:** `user_level_ai_adoption.csv` (user-supplied dataset)
+- **Source:** `user_level_ai_adoption.csv`
 - **Instances:** 15,000 user records
 - **Raw columns (10):** `User_ID`, `Industry`, `Job_Role`, `Location`,
   `Experience_Years`, `Primary_AI_Tool`, `Daily_Token_Usage`,
